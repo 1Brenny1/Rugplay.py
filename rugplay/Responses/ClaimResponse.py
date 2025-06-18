@@ -27,4 +27,5 @@ class ClaimResponse:
         self.totalRewardsClaimed = json["totalRewardsClaimed"]
         self.loginStreak = json["loginStreak"]
         self.nextClaimTime = datetime.fromisoformat(json["nextClaimTime"].replace("Z", "+00:00"))
+        self.timeRemaining = (self.nextClaimTime - datetime.now()).microseconds
         return self

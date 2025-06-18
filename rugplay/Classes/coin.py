@@ -31,10 +31,10 @@ class Coin():
         self.fromJson(resp.json())
         
     
-    from .user import User
+    from .User import User
     def getCreator(self) -> User:
         from ..Utils import Utils
-        from .user import User
+        from .User import User
         resp:Response = Utils.makeRequest(self.__bot__, Utils.URLS.user % self.__creatorUsername__, get=True, use_cookies=False)
         return User(resp.json())
     

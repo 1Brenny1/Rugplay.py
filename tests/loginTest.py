@@ -1,11 +1,11 @@
-import rugplay, time
+import simuserapi, time
 
-BOT = rugplay.RugplayBot("TOKEN", "CF_CLEARANCE")
+BOT = simuserapi.rp_bot("TOKEN", "CF_CLEARANCE")
 
 COIN = BOT.getCoin("SYMBOL")
 
 while True:
-    resp:rugplay.ClaimResponse = BOT.claimDaily()
+    resp:simuserapi.ClaimResponse = BOT.claimDaily()
 
     if resp.success:
         COIN.buy(resp.rewardAmount)

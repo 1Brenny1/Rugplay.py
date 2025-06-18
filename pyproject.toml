@@ -1,10 +1,10 @@
 [project]
-name = "Rugplay.py"
+name = "SimUserAPI"
 version = "0.0.1"
 authors = [
   { name="1Brenny1" },
 ]
-description = "A python wrapper for rugplay.com"
+description = "A lightweight Python interface that allows automated interaction with a browser-based crypto trading simulation game."
 readme = "README.md"
 requires-python = ">=3.9"
 classifiers = [

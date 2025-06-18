@@ -6,7 +6,7 @@ from .Responses.ClaimResponse import ClaimResponse
 from .Responses.CoinFlipResponse import CoinFlipResponse
 from .Responses.SlotsResponse import SlotsResponse
 
-class RugplayBot():
+class rp_bot():
     TOKEN:str = None
     CLEARANCE:str = None
     LOCAL_USER:LocalUser = None

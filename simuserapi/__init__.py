@@ -1,7 +1,7 @@
-from .RugplayBot import RugplayBot
+from .rp_bot import RugplayBot
 
 from Classes.Coin import Coin
-from rugplay.Classes.User import User
+from simuserapi.Classes.User import User
 from Classes.LocalUser import LocalUser
 
 from .Responses.ClaimResponse import ClaimResponse

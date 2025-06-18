@@ -1,0 +1,19 @@
+[project]
+name = "Rugplay.py"
+version = "0.0.1"
+authors = [
+  { name="1Brenny1" },
+]
+description = "A python wrapper for rugplay.com"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = [ "LICENSE" ]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
